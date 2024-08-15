@@ -1,5 +1,6 @@
 body{
     background-color: rgba(17, 17 , 17, 100%);
+
 }
 
 .inter{
@@ -7,7 +8,10 @@ body{
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.head{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
 .navigation{
     display: flex;
@@ -50,7 +54,7 @@ body{
 
 .name{
     font-size: 78px;
-    padding: 96px 0px 0px 0px;
+    /* padding: 96px 0px 0px 0px; */
     margin: 0;
 }
 .description{
@@ -153,7 +157,7 @@ padding: 8px 23px 20px 75px;
 
 .image{
     margin: 0;
-    padding: 140px 150px 0px 0px;
+    padding: 32px 100px 0px 0px;
     
 }
 
@@ -162,4 +166,101 @@ padding: 8px 23px 20px 75px;
     font-optical-sizing: auto;
     font-style: normal;
   
+}
+
+/* Change Your Habits */
+.Change{
+    max-width: 1044px;
+    
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+.Habits_title{
+    color: #ffffff;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+.Habits_des{
+    color: rgba(255, 255 , 255, 50%);
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 14px;
+    margin-bottom: 54px;
+}
+.pic_part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   margin-top: 58px;
+   margin-bottom: 100px;
+   text-align: center;
+}
+.pic_text img{
+    border: none;
+    border-radius: 100px;
+}
+.text1{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    
+}
+.text2{
+    color: rgba(255, 255 , 255, 50%);
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 6px;
+    
+}
+
+/* Run an Extra Mile Easily */
+
+.run_section{
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: rgba(34, 34 , 34, 100%);
+    display: flex;justify-content: space-between;
+    gap: 165px;
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 100px;
+    
+}
+
+.run_img_part img{
+    border: none;
+    border-radius: 18px;
+    
+}
+.run_img_part{
+    padding: 30px 30px 30px 0px;
+}
+.run_text_head{
+    font-size: 48px;
+    color: rgba(255, 255 , 255, 100%);
+    margin:0;
+    margin-bottom: 0px;
+}
+.run_text_des{
+    font-size: 14px;
+    color: rgba(255, 255 , 255, 50%);
+    margin-top: 14px;
+    margin-bottom: 34px;
+}
+.button3{
+    background-color: #e6533c;
+    padding: 16px 71px;
+    border-radius: 42px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.run_text_part{
+    padding: 41px 0px 40px 54px;
 }
