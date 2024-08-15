@@ -1,0 +1,165 @@
+body{
+    background-color: rgba(17, 17 , 17, 100%);
+}
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 57px 190px 0px 190px;
+    margin: 0;
+}
+.nav_bar a{
+    text-decoration: none;
+    color: #ffffff;
+    justify-content: space-between;
+}
+.nav_bar{
+    font-size: 18px;
+    font-weight: normal;
+    list-style: none;
+    display: flex;
+    gap: 47px;
+    align-items: center;
+}
+.fitness{
+    color: rgba(230, 83 , 60, 100%);
+    font-size: 36px;
+    font-weight: 1000;
+    font-style: italic;
+}
+.home{
+    background-color: #e6533c;
+    padding: 8px 20px;
+    border-radius: 46px;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+
+.section_title{
+    color: #ffffff;
+}
+
+.name{
+    font-size: 78px;
+    padding: 96px 0px 0px 0px;
+    margin: 0;
+}
+.description{
+    font-size: 16px;
+    color: rgba(255, 255 , 255, 50%);
+    padding: 28px 0px;
+    margin: 0;
+}
+.title_part{
+    padding-left: 190px;
+}
+.club_button{
+    background-color: #e6533c;
+    padding: 16px 46px;
+    border-radius: 42px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.App_button{
+    background-color: black;
+    padding: 16px 48px;
+    border-radius: 42px;
+    border: 1px solid ;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    
+}
+.button1{
+    display: flex;
+    gap: 14px;
+}
+
+.tutorial{
+    display: flex;
+    
+    
+    flex-direction: column; 
+    align-items: center;
+    border: 1px solid brown;
+    margin: 0;
+    gap: 137px;
+  
+}
+
+
+
+.section_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video_tutorial{
+    background-color: rgba(48, 48 , 48, 54%);
+    /* background: linear-gradient(180deg, rgba(19,19,19,0.747)0%,rgb(30,30,30)50%,rgba(1,1,1,0.719)100%); */
+   
+   border: none;
+   border-radius: 12px;
+     position: absolute;
+     margin: 230px 230px 63px 850px;
+   
+}
+.video_title{
+    font-size: 24px;
+    margin: 0;
+ padding: 20px 63px 0px 75px;
+}
+.video_des{
+    font-size: 16px;
+    color: rgba(239, 237 , 232, 65%);
+margin: 0;
+padding: 8px 23px 20px 75px;
+
+}
+
+.free_work{
+    background-color: rgba(255, 255 , 255, 10%);
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    margin: 134px 140px 328px 1170px;
+    
+}
+
+.free_work_title{
+    font-size: 40px;
+    margin: 0;
+    padding: 17px 53px 5px 24px;
+
+}
+.free_work_des{
+    color: rgba(255, 255 , 255, 65%);
+    margin: 0;
+    padding: 0px 23px 16px 24px;
+    font-size: 13px;
+}
+
+.image{
+    margin: 0;
+    padding: 140px 150px 0px 0px;
+    
+}
+
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  
+}
