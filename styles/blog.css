@@ -615,19 +615,6 @@ font-weight: normal;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer  */
 
 .left-section h1{
@@ -681,14 +668,15 @@ font-weight: normal;
 }
 .right_section li{
     list-style: none;
+
 }
 .left-section{
     margin: 66px 0px 152px 190px;
 }
 
-.right1 li{
+.right1 div{
     margin: 20px;
-    text-align: left;
+
     font-size: 23px;
 }
 .right1 h2{
@@ -697,15 +685,31 @@ font-weight: normal;
 .right2 h2{
     font-size: 32px;
 }
-.right2 li{
+.right2 div{
     margin: 20px;
     
     font-size: 23px;
+    
+}
+.right2 a{
+    display: grid;
+    flex-direction: column;
+    padding-bottom: 20px;
+   
+}
+.right1 a{
+    display: grid;
+    flex-direction: column;
+    padding-bottom: 20px;
+   
+}
+.right2{
+    display: inline-block;
 }
 
 .right1{
     display: inline-block;
-    padding: 0px;
+    
     
 }
 
