@@ -9,7 +9,7 @@ body{
   font-style: normal;
 }
 .head{
-    max-width: 1440px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -168,9 +168,19 @@ padding: 8px 23px 20px 75px;
   
 }
 
+@media screen and (max-width: 576px) {
+    .section_title{
+        flex-direction: column;
+        
+        margin: auto;
+        
+    }
+    
+}
+
 /* Change Your Habits */
 .Change{
-    max-width: 1044px;
+    max-width: 100%;
     
     margin: 0 auto;
     margin-top: 100px;
@@ -198,6 +208,8 @@ padding: 8px 23px 20px 75px;
    margin-top: 58px;
    margin-bottom: 100px;
    text-align: center;
+   margin-left: 198px;
+   margin-right: 198px;
 }
 .pic_text img{
     border: none;
@@ -217,18 +229,29 @@ padding: 8px 23px 20px 75px;
     margin-top: 6px;
     
 }
+@media screen and (max-width:576px) {
+    .pic_part{
+        flex-direction: column;
 
+        height: auto;
+        
+    }
+    
+}
 /* Run an Extra Mile Easily */
 
 .run_section{
-    max-width: 1060px;
+    max-width: 100%;
     margin: 0 auto;
     background-color: rgba(34, 34 , 34, 100%);
-    display: flex;justify-content: space-between;
-    gap: 165px;
+    display: flex;
+    justify-content: space-between;
+    
     border: none;
     border-radius: 18px;
     margin-bottom: 100px;
+    margin-left: 190px;
+    margin-right: 190px;
     
 }
 
@@ -238,7 +261,9 @@ padding: 8px 23px 20px 75px;
     
 }
 .run_img_part{
-    padding: 30px 30px 30px 0px;
+    /* padding: 30px 30px 30px 0px; */
+    margin: 30px 32px 29px 0px;
+    position: static;
 }
 .run_text_head{
     font-size: 48px;
@@ -262,8 +287,41 @@ padding: 8px 23px 20px 75px;
     color: #ffffff;
 }
 .run_text_part{
-    padding: 41px 0px 40px 54px;
+    /* padding: 41px 0px 40px 54px; */
+    margin-left: 54px;
+    margin-top: 41px;
+    margin-bottom: 40px;
+    
 }
+  @media screen and (max-width:576px) {
+    .run_section{
+        flex-direction: column;
+        width: 353px;
+        height: auto;
+       margin: auto;
+       /* align-items: center; */
+    .run_img_part
+    
+    }
+    .run_img_part img{
+          width: 287px;
+          height: 170px;
+          margin: 0px 33px 0px 33px;
+
+    }
+    .run_text_part{
+        margin: 33px 33px 0px 33px;
+    }
+    .run_text_part h1{
+        font-size: 32px;
+    }
+    .run_img_part p{
+        font-size: 14px;
+    }
+    .run_text_part button{
+         padding: 16px 103px 16px 103px;
+    }
+  }
 
 /* BMI Calculator title */
 
@@ -285,6 +343,19 @@ padding: 8px 23px 20px 75px;
     text-align: left;
   max-width: 671px;
     margin: 0 auto;
+}
+
+@media screen and (max-width:576px) {
+    .bmi_calcu{
+        margin-top: 66px;
+        margin-bottom: 32px;
+    }
+    .bmi_calcu h1{
+        font-size: 32px;
+    }
+    .bmi_calcu p{
+        font-size: 14px;
+    }
 }
 
 /* BMI Calculator chart*/
@@ -394,6 +465,135 @@ font-weight: normal;
     margin-top: 52px;
     margin-left: 187px;
 }
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+        padding: 10px;
+        width: 394px;
+    }
+    .bmi-calculator{
+        margin: auto;
+    }
+    .bmi-calculator h2{
+         font-size: 16px;
+    }
+    .bmi_chart{
+        margin: auto;
+    }
+    .bmi_chart h2{
+     font-size: 16px;
+    }
+    .bmi_chart table{
+      margin-bottom: 42px;
+       
+    }
+    .bmi-calculator p{
+        font-size: 10px;
+    }
+    .calcu_input2 input{
+
+      width: 170px;
+      height: 48px;
+    }
+    .calcu_input2{
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        /* margin-top: 12px; */
+        
+        /* margin-right: 12px; */
+        /* gap: 12px; */
+        
+        
+    }
+}
+
+/* meet our team */
+
+.meet_team h1{
+   font-size: 48px;
+   font-weight: 1200;
+   color: rgba(255, 255 , 255, 100%);
+}
+.meet_team p{
+   font-size: 14px;
+   font-weight: normal;
+   color: rgba(255, 255 , 255, 50%);
+}
+
+.meet_team{
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.team{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(255, 255 , 255, 10%);
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 88px;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.relative_pos{
+    position: relative;
+    padding: 20px;
+    
+}
+
+.relative_pos img{
+    width: 100%;
+    height: 272px;
+
+    border: none;
+    border-radius: 18px;
+    
+    
+
+}
+.relative_pos p{
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: rgba(255, 255 , 255, 50%);
+    font-size: 14px;
+}
+
+.relative_pos h3{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: rgba(255, 255 , 255, 100%);
+    font-size: 20px;
+}
+
+@media screen and (max-width:576px) {
+     .calcu_input2{
+        flex-direction: column;
+     }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer  */
 
